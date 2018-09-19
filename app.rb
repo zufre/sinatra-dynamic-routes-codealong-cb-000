@@ -23,6 +23,7 @@ class App < Sinatra::Base
      num1 =params[:num2]
      num2 = params[:num1]
      prod = num2*num1
+     prod
    end
 
 end
