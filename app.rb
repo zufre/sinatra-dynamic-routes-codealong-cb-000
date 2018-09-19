@@ -21,5 +21,6 @@ class App < Sinatra::Base
 
   get "/multiply/:num1/:num2" do
      return params[:num1]
+   end
 
 end
